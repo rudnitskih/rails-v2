@@ -1,3 +1,5 @@
+"use strict";
+
 require('app-module-path').addPath(__dirname + '/server');
 
 process.on('uncaughtException', function(err) {
@@ -6,4 +8,10 @@ process.on('uncaughtException', function(err) {
 
 const bookingUzScraper = require('./booking-uz-scraper');
 
-bookingUzScraper.getAllStations();
+// bookingUzScraper.getAllStations().then(function(results){
+//     console.log(results);
+// });
+
+bookingUzScraper.getRoute().then(function(results){
+    console.log(results);
+});
