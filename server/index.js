@@ -1,6 +1,4 @@
-"use strict";
-
-require('app-module-path').addPath(__dirname + '/server');
+require('app-module-path').addPath(__dirname);
 
 process.on('uncaughtException', function(err) {
     console.log(err)
