@@ -1,7 +1,7 @@
 let rp = require('request-promise');
 let _ = require('lodash');
 let async = require('async');
-let jjdecode = require('helpers/jjdecode');
+let jjdecode = require('../helpers/jjdecode');
 
 
 let baseUrl = 'http://booking.uz.gov.ua';
@@ -62,7 +62,7 @@ module.exports = {
 
     },
 
-    getRoute() {
+    getRoutesBetweenCities() {
         let options = {
             url: 'http://booking.uz.gov.ua/purchase/search/',
             method: 'POST',
@@ -78,7 +78,7 @@ module.exports = {
                 station_id_till: 2218000,
                 station_from: '%D0%9A%D0%B8%D0%B5%D0%B2',
                 station_till: '%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2',
-                date_dep: '27.12.2016',
+                date_dep: '28.12.2016',
                 time_dep: '00%3A00',
                 time_dep_till: '',
                 another_ec: '0',
@@ -137,7 +137,7 @@ module.exports = {
     getTrainMap(){
         return getInitialRequest()
             .then(function () {
-                var headers = {
+                let headers = {
                     'GV-Token': '6b1fbee63f30ee998654b02e0199b260',
                     'Origin': 'http://booking.uz.gov.ua',
                     'Accept-Encoding': 'gzip, deflate',

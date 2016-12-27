@@ -1,4 +1,4 @@
-require('app-module-path').addPath(__dirname);
+//require('app-module-path').addPath(__dirname);
 
 process.on('uncaughtException', function(err) {
     console.log(err)
