@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a1b372-80f9-4c38-9cdc-c87f6cce02ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/booking-uz-scraper/index.js" afterPath="$PROJECT_DIR$/server/booking-uz-scraper/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" afterPath="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/server/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,9 +37,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="217">
+              <caret line="123" column="48" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="48" />
+              <folding>
+                <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,8 +141,8 @@
       <file leaf-file-name="index.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -164,11 +167,14 @@
       <find>Київ</find>
       <find>getAllStationsList</find>
       <find>routes</find>
+      <find>requestHeaders</find>
+      <find>params</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>'getStationsListByPattern</replace>
       <replace>getStationsList</replace>
+      <replace>options</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -210,6 +216,28 @@
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BadExpressionStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -266,32 +294,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="booking-uz-scraper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +309,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -374,7 +384,7 @@
       <pass-parent-env>true</pass-parent-env>
       <envs />
       <ui>bdd</ui>
-      <extra-mocha-options />
+      <extra-mocha-options>--timeout 5000</extra-mocha-options>
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/server/booking-uz-scraper/index.test.js</test-file>
       <method />
@@ -430,59 +440,61 @@
       <option name="presentableId" value="Default" />
       <updated>1482697171935</updated>
       <workItem from="1482697173339" duration="22747000" />
-      <workItem from="1482875771642" duration="2135000" />
+      <workItem from="1482875771642" duration="7264000" />
+      <workItem from="1482948920646" duration="854000" />
+      <workItem from="1482993397647" duration="3715000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Server_tests - 2016.12.28 at 00h 13m 00s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 22m 29s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 13m 41s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 29m 28s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 15m 10s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 04s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 18m 37s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 16s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 19m 39s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 35s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 19m 47s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 07s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 20m 10s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 20s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 29m 51s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 49s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 30m 21s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 59s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.28 at 00h 30m 25s.xml">
+    <history-entry file="Server_tests - 2016.12.29 at 09h 36m 58s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24882000" />
+    <option name="totallyTimeSpent" value="34580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1940532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4380805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55417955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54489166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -519,11 +531,263 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15444">
+          <caret line="858" column="45" lean-forward="false" selection-start-line="858" selection-start-column="45" selection-end-line="858" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/helpers/jjdecode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#out#0" expanded="false" />
+            <element signature="e#283#524#0" expanded="false" />
+            <element signature="e#538#742#0" expanded="false" />
+            <element signature="e#776#827#0" expanded="false" />
+            <element signature="e#1600#1701#0" expanded="false" />
+            <element signature="e#1753#1854#0" expanded="false" />
+            <element signature="e#1906#2007#0" expanded="false" />
+            <element signature="e#2059#2160#0" expanded="false" />
+            <element signature="e#2237#2686#0" expanded="false" />
+            <element signature="e#2433#2654#0" expanded="false" />
+            <element signature="e#2496#2640#0" expanded="false" />
+            <element signature="e#2761#16643#0" expanded="false" />
+            <element signature="e#2909#3951#0" expanded="false" />
+            <element signature="e#3103#3847#0" expanded="false" />
+            <element signature="e#3213#3722#0" expanded="false" />
+            <element signature="e#3389#3700#0" expanded="false" />
+            <element signature="e#3476#3674#0" expanded="false" />
+            <element signature="e#3768#3829#0" expanded="false" />
+            <element signature="e#4043#7542#0" expanded="false" />
+            <element signature="e#4339#7399#0" expanded="false" />
+            <element signature="e#4406#5432#0" expanded="false" />
+            <element signature="e#4486#4654#0" expanded="false" />
+            <element signature="e#4738#4906#0" expanded="false" />
+            <element signature="e#4990#5158#0" expanded="false" />
+            <element signature="e#5242#5410#0" expanded="false" />
+            <element signature="e#5542#7274#0" expanded="false" />
+            <element signature="e#5703#6314#0" expanded="false" />
+            <element signature="e#5790#6288#0" expanded="false" />
+            <element signature="e#5895#6024#0" expanded="false" />
+            <element signature="e#6384#7252#0" expanded="false" />
+            <element signature="e#6493#7226#0" expanded="false" />
+            <element signature="e#6789#7156#0" expanded="false" />
+            <element signature="e#6892#7122#0" expanded="false" />
+            <element signature="e#7320#7381#0" expanded="false" />
+            <element signature="e#7594#16633#0" expanded="false" />
+            <element signature="e#7613#7648#0" expanded="false" />
+            <element signature="e#7867#16593#0" expanded="false" />
+            <element signature="e#7989#8178#0" expanded="false" />
+            <element signature="e#8258#8448#0" expanded="false" />
+            <element signature="e#8556#8892#0" expanded="false" />
+            <element signature="e#8622#8749#0" expanded="false" />
+            <element signature="e#9026#11853#0" expanded="false" />
+            <element signature="e#9092#9223#0" expanded="false" />
+            <element signature="e#9494#11699#0" expanded="false" />
+            <element signature="e#9577#10803#0" expanded="false" />
+            <element signature="e#9673#9873#0" expanded="false" />
+            <element signature="e#9973#10173#0" expanded="false" />
+            <element signature="e#10273#10473#0" expanded="false" />
+            <element signature="e#10573#10773#0" expanded="false" />
+            <element signature="e#10937#11534#0" expanded="false" />
+            <element signature="e#11137#11504#0" expanded="false" />
+            <element signature="e#11240#11470#0" expanded="false" />
+            <element signature="e#11596#11673#0" expanded="false" />
+            <element signature="e#11961#16254#0" expanded="false" />
+            <element signature="e#12027#12158#0" expanded="false" />
+            <element signature="e#12510#16090#0" expanded="false" />
+            <element signature="e#12593#13819#0" expanded="false" />
+            <element signature="e#12689#12889#0" expanded="false" />
+            <element signature="e#12989#13189#0" expanded="false" />
+            <element signature="e#13289#13489#0" expanded="false" />
+            <element signature="e#13589#13789#0" expanded="false" />
+            <element signature="e#13953#15925#0" expanded="false" />
+            <element signature="e#14138#14853#0" expanded="false" />
+            <element signature="e#14241#14819#0" expanded="false" />
+            <element signature="e#14362#14515#0" expanded="false" />
+            <element signature="e#14939#15895#0" expanded="false" />
+            <element signature="e#15064#15861#0" expanded="false" />
+            <element signature="e#15400#15823#0" expanded="false" />
+            <element signature="e#15519#15781#0" expanded="false" />
+            <element signature="e#15987#16064#0" expanded="false" />
+            <element signature="e#16419#16574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15444">
+          <caret line="858" column="45" lean-forward="false" selection-start-line="858" selection-start-column="45" selection-end-line="858" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/helpers/jjdecode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#out#0" expanded="false" />
+            <element signature="e#283#524#0" expanded="false" />
+            <element signature="e#538#742#0" expanded="false" />
+            <element signature="e#776#827#0" expanded="false" />
+            <element signature="e#1600#1701#0" expanded="false" />
+            <element signature="e#1753#1854#0" expanded="false" />
+            <element signature="e#1906#2007#0" expanded="false" />
+            <element signature="e#2059#2160#0" expanded="false" />
+            <element signature="e#2237#2686#0" expanded="false" />
+            <element signature="e#2433#2654#0" expanded="false" />
+            <element signature="e#2496#2640#0" expanded="false" />
+            <element signature="e#2761#16643#0" expanded="false" />
+            <element signature="e#2909#3951#0" expanded="false" />
+            <element signature="e#3103#3847#0" expanded="false" />
+            <element signature="e#3213#3722#0" expanded="false" />
+            <element signature="e#3389#3700#0" expanded="false" />
+            <element signature="e#3476#3674#0" expanded="false" />
+            <element signature="e#3768#3829#0" expanded="false" />
+            <element signature="e#4043#7542#0" expanded="false" />
+            <element signature="e#4339#7399#0" expanded="false" />
+            <element signature="e#4406#5432#0" expanded="false" />
+            <element signature="e#4486#4654#0" expanded="false" />
+            <element signature="e#4738#4906#0" expanded="false" />
+            <element signature="e#4990#5158#0" expanded="false" />
+            <element signature="e#5242#5410#0" expanded="false" />
+            <element signature="e#5542#7274#0" expanded="false" />
+            <element signature="e#5703#6314#0" expanded="false" />
+            <element signature="e#5790#6288#0" expanded="false" />
+            <element signature="e#5895#6024#0" expanded="false" />
+            <element signature="e#6384#7252#0" expanded="false" />
+            <element signature="e#6493#7226#0" expanded="false" />
+            <element signature="e#6789#7156#0" expanded="false" />
+            <element signature="e#6892#7122#0" expanded="false" />
+            <element signature="e#7320#7381#0" expanded="false" />
+            <element signature="e#7594#16633#0" expanded="false" />
+            <element signature="e#7613#7648#0" expanded="false" />
+            <element signature="e#7867#16593#0" expanded="false" />
+            <element signature="e#7989#8178#0" expanded="false" />
+            <element signature="e#8258#8448#0" expanded="false" />
+            <element signature="e#8556#8892#0" expanded="false" />
+            <element signature="e#8622#8749#0" expanded="false" />
+            <element signature="e#9026#11853#0" expanded="false" />
+            <element signature="e#9092#9223#0" expanded="false" />
+            <element signature="e#9494#11699#0" expanded="false" />
+            <element signature="e#9577#10803#0" expanded="false" />
+            <element signature="e#9673#9873#0" expanded="false" />
+            <element signature="e#9973#10173#0" expanded="false" />
+            <element signature="e#10273#10473#0" expanded="false" />
+            <element signature="e#10573#10773#0" expanded="false" />
+            <element signature="e#10937#11534#0" expanded="false" />
+            <element signature="e#11137#11504#0" expanded="false" />
+            <element signature="e#11240#11470#0" expanded="false" />
+            <element signature="e#11596#11673#0" expanded="false" />
+            <element signature="e#11961#16254#0" expanded="false" />
+            <element signature="e#12027#12158#0" expanded="false" />
+            <element signature="e#12510#16090#0" expanded="false" />
+            <element signature="e#12593#13819#0" expanded="false" />
+            <element signature="e#12689#12889#0" expanded="false" />
+            <element signature="e#12989#13189#0" expanded="false" />
+            <element signature="e#13289#13489#0" expanded="false" />
+            <element signature="e#13589#13789#0" expanded="false" />
+            <element signature="e#13953#15925#0" expanded="false" />
+            <element signature="e#14138#14853#0" expanded="false" />
+            <element signature="e#14241#14819#0" expanded="false" />
+            <element signature="e#14362#14515#0" expanded="false" />
+            <element signature="e#14939#15895#0" expanded="false" />
+            <element signature="e#15064#15861#0" expanded="false" />
+            <element signature="e#15400#15823#0" expanded="false" />
+            <element signature="e#15519#15781#0" expanded="false" />
+            <element signature="e#15987#16064#0" expanded="false" />
+            <element signature="e#16419#16574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -536,7 +800,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="140" column="17" lean-forward="true" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -760,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -776,18 +1034,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="217">
+          <caret line="123" column="48" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="48" />
+          <folding>
+            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
           <folding />
         </state>
       </provider>
