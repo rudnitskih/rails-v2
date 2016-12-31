@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a1b372-80f9-4c38-9cdc-c87f6cce02ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/schemas/station.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/scraper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/booking-uz-scraper/index.js" afterPath="$PROJECT_DIR$/server/booking-uz-scraper/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" afterPath="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/server/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,112 +42,40 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="123" column="48" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="48" />
+            <state relative-caret-position="180">
+              <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="19" />
               <folding>
-                <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+                <marker date="1483162482519" expanded="true" signature="3286:3311" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15444">
-              <caret line="858" column="45" lean-forward="false" selection-start-line="858" selection-start-column="45" selection-end-line="858" selection-end-column="45" />
+            <state relative-caret-position="18">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jjdecode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/helpers/jjdecode.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!block;n#out#0" expanded="false" />
-                <element signature="e#283#524#0" expanded="false" />
-                <element signature="e#538#742#0" expanded="false" />
-                <element signature="e#776#827#0" expanded="false" />
-                <element signature="e#1600#1701#0" expanded="false" />
-                <element signature="e#1753#1854#0" expanded="false" />
-                <element signature="e#1906#2007#0" expanded="false" />
-                <element signature="e#2059#2160#0" expanded="false" />
-                <element signature="e#2237#2686#0" expanded="false" />
-                <element signature="e#2433#2654#0" expanded="false" />
-                <element signature="e#2496#2640#0" expanded="false" />
-                <element signature="e#2761#16643#0" expanded="false" />
-                <element signature="e#2909#3951#0" expanded="false" />
-                <element signature="e#3103#3847#0" expanded="false" />
-                <element signature="e#3213#3722#0" expanded="false" />
-                <element signature="e#3389#3700#0" expanded="false" />
-                <element signature="e#3476#3674#0" expanded="false" />
-                <element signature="e#3768#3829#0" expanded="false" />
-                <element signature="e#4043#7542#0" expanded="false" />
-                <element signature="e#4339#7399#0" expanded="false" />
-                <element signature="e#4406#5432#0" expanded="false" />
-                <element signature="e#4486#4654#0" expanded="false" />
-                <element signature="e#4738#4906#0" expanded="false" />
-                <element signature="e#4990#5158#0" expanded="false" />
-                <element signature="e#5242#5410#0" expanded="false" />
-                <element signature="e#5542#7274#0" expanded="false" />
-                <element signature="e#5703#6314#0" expanded="false" />
-                <element signature="e#5790#6288#0" expanded="false" />
-                <element signature="e#5895#6024#0" expanded="false" />
-                <element signature="e#6384#7252#0" expanded="false" />
-                <element signature="e#6493#7226#0" expanded="false" />
-                <element signature="e#6789#7156#0" expanded="false" />
-                <element signature="e#6892#7122#0" expanded="false" />
-                <element signature="e#7320#7381#0" expanded="false" />
-                <element signature="e#7594#16633#0" expanded="false" />
-                <element signature="e#7613#7648#0" expanded="false" />
-                <element signature="e#7867#16593#0" expanded="false" />
-                <element signature="e#7989#8178#0" expanded="false" />
-                <element signature="e#8258#8448#0" expanded="false" />
-                <element signature="e#8556#8892#0" expanded="false" />
-                <element signature="e#8622#8749#0" expanded="false" />
-                <element signature="e#9026#11853#0" expanded="false" />
-                <element signature="e#9092#9223#0" expanded="false" />
-                <element signature="e#9494#11699#0" expanded="false" />
-                <element signature="e#9577#10803#0" expanded="false" />
-                <element signature="e#9673#9873#0" expanded="false" />
-                <element signature="e#9973#10173#0" expanded="false" />
-                <element signature="e#10273#10473#0" expanded="false" />
-                <element signature="e#10573#10773#0" expanded="false" />
-                <element signature="e#10937#11534#0" expanded="false" />
-                <element signature="e#11137#11504#0" expanded="false" />
-                <element signature="e#11240#11470#0" expanded="false" />
-                <element signature="e#11596#11673#0" expanded="false" />
-                <element signature="e#11961#16254#0" expanded="false" />
-                <element signature="e#12027#12158#0" expanded="false" />
-                <element signature="e#12510#16090#0" expanded="false" />
-                <element signature="e#12593#13819#0" expanded="false" />
-                <element signature="e#12689#12889#0" expanded="false" />
-                <element signature="e#12989#13189#0" expanded="false" />
-                <element signature="e#13289#13489#0" expanded="false" />
-                <element signature="e#13589#13789#0" expanded="false" />
-                <element signature="e#13953#15925#0" expanded="false" />
-                <element signature="e#14138#14853#0" expanded="false" />
-                <element signature="e#14241#14819#0" expanded="false" />
-                <element signature="e#14362#14515#0" expanded="false" />
-                <element signature="e#14939#15895#0" expanded="false" />
-                <element signature="e#15064#15861#0" expanded="false" />
-                <element signature="e#15400#15823#0" expanded="false" />
-                <element signature="e#15519#15781#0" expanded="false" />
-                <element signature="e#15987#16064#0" expanded="false" />
-                <element signature="e#16419#16574#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+            <state relative-caret-position="532">
+              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -151,8 +84,48 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="36">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scraper.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/scraper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="29" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="station.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/schemas/station.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -169,6 +142,8 @@
       <find>routes</find>
       <find>requestHeaders</find>
       <find>params</find>
+      <find>moment</find>
+      <find>db</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -184,13 +159,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
         <option value="$PROJECT_DIR$/server/helpers/jjdecode.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
-        <option value="$PROJECT_DIR$/server/index.js" />
         <option value="$PROJECT_DIR$/server/booking-uz-scraper/index.js" />
         <option value="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/server/ds.js" />
+        <option value="$PROJECT_DIR$/server/config/dev/db.js" />
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/server/config.js" />
+        <option value="$PROJECT_DIR$/server/db.js" />
+        <option value="$PROJECT_DIR$/server/schemas/station.js" />
+        <option value="$PROJECT_DIR$/server/scraper.js" />
       </list>
     </option>
   </component>
@@ -225,17 +207,18 @@
             <id />
           </State>
           <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
             <id>JavaScript</id>
           </State>
           <State>
-            <id>JavaScript validity issuesJavaScript</id>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>BadExpressionStatementJS</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -294,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="booking-uz-scraper" />
+              <option name="myItemId" value="schemas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,16 +292,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/booking-uz-scraper/index.test.js" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Angular2HTML" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="/usr/lib/node_modules/mocha" />
   </component>
-  <component name="RunManager" selected="Mocha.Server tests">
+  <component name="RunManager" selected="Node.js.Scraper">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -421,9 +404,42 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Scraper" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="project" path-to-js-file="./server/scraper.js" working-dir="$PROJECT_DIR$">
+      <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" with-js-debugger="true" />
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" with-js-debugger="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Mocha.Server tests" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Server" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Scraper" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -442,44 +458,44 @@
       <workItem from="1482697173339" duration="22747000" />
       <workItem from="1482875771642" duration="7264000" />
       <workItem from="1482948920646" duration="854000" />
-      <workItem from="1482993397647" duration="3715000" />
+      <workItem from="1482993397647" duration="17487000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Server_tests - 2016.12.29 at 09h 22m 29s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 14m 51s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 29m 28s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 18m 02s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 04s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 18m 41s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 16s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 20m 11s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 32m 35s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 21m 07s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 07s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 21m 11s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 20s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 35m 53s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 49s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 36m 02s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 35m 59s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 37m 08s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Server_tests - 2016.12.29 at 09h 36m 58s.xml">
+    <history-entry file="Server_tests - 2016.12.31 at 07h 37m 35s.xml">
       <configuration name="Server tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34580000" />
+    <option name="totallyTimeSpent" value="48352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -490,11 +506,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55417955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32662538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -533,13 +549,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/server/db.js</url>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -557,7 +573,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+            <marker date="1483162482519" expanded="true" signature="3286:3311" ph="..." />
           </folding>
         </state>
       </provider>
@@ -679,7 +695,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+            <marker date="1483162482519" expanded="true" signature="3286:3311" ph="..." />
           </folding>
         </state>
       </provider>
@@ -801,7 +817,7 @@
         <state relative-caret-position="2520">
           <caret line="140" column="17" lean-forward="true" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
           <folding>
-            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+            <marker date="1483162482519" expanded="true" signature="3286:3311" ph="..." />
           </folding>
         </state>
       </provider>
@@ -924,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1026,36 +1035,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state relative-caret-position="360">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="123" column="48" lean-forward="true" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="48" />
+        <state relative-caret-position="180">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="19" />
           <folding>
-            <marker date="1482997061707" expanded="true" signature="3286:3311" ph="..." />
+            <marker date="1483162482519" expanded="true" signature="3286:3311" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/booking-uz-scraper/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        <state relative-caret-position="532">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/dev/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/schemas/station.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/scraper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="29" selection-end-column="14" />
           <folding />
         </state>
       </provider>

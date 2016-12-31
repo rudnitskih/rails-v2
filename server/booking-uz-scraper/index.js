@@ -117,7 +117,7 @@ module.exports = {
     },
 
     getTrainSchedule(options){
-        let {stationFrom, stationTill, train, dateDep} = options;
+        let {stationIdFrom, stationIdTill, train, dateDep} = options;
 
         return getInitialRequest()
             .then(function () {
@@ -125,46 +125,45 @@ module.exports = {
                 return rp({
                     url: 'http://booking.uz.gov.ua/purchase/train_route/',
                     method: 'POST',
+                    json: true,
                     headers: _.assign(requestHeaders, {
                         'GV-Ajax': '1',
                         'Referer': baseUrl,
                         'Cookie': j.getCookieString(baseUrl)
                     }),
                     form: createRequestBody({
-                        station_id_from: stationFrom,
-                        station_id_till: stationTill,
+                        station_id_from: stationIdFrom,
+                        station_id_till: stationIdTill,
                         train: train,
-                        date_dep: dateDep
+                        date_dep: dateDep / 1000
                     })
                 })
             }).catch(console.error);
     },
 
-    getTrainMap(){
+    getTrainSchedule(options){
+        let {stationIdFrom, stationIdTill, train, dateDep} = options;
+
         return getInitialRequest()
             .then(function () {
                 return rp({
                     url: 'http://booking.uz.gov.ua/purchase/train_route_map/',
                     method: 'POST',
-                    headers: {
-                        'GV-Token': '6b1fbee63f30ee998654b02e0199b260',
-                        'Origin': 'http://booking.uz.gov.ua',
-                        'Accept-Encoding': 'gzip, deflate',
-                        'Accept-Language': 'en-US,en;q=0.8,uk;q=0.6,ru;q=0.4',
-                        'Connection': 'keep-alive',
+                    json: true,
+                    headers: _.assign(requestHeaders, {
                         'GV-Ajax': '1',
-                        'GV-Screen': '1366x768',
-                        'GV-Referer': 'http://booking.uz.gov.ua/',
-                        'Pragma': 'no-cache',
-                        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                        'Accept': '*/*',
-                        'Cache-Control': 'no-cache',
-                        'Referer': 'http://booking.uz.gov.ua/',
-                        'Cookie': '_gv_sessid=jpbhokbmhs7n65bie19ahlbgp3; HTTPSERVERID=server2; _gv_lang=uk; __utma=31515437.1733562073.1476519681.1479150838.1480162632.4; __utmc=31515437; __utmz=31515437.1476519681.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _uz_cart_personal_email=rudnitskih%40gmail.com; JSESSIONID=aaaJXJ6xoQWs-8vB8GXKv; _ga=GA1.3.1733562073.1476519681; _gat=1'
-                    },
-                    body: 'station_id_from=2200001&station_id_till=2218000&train=747%D0%9A&date_dep=1485233700'
+                        'Referer': baseUrl,
+                        'Cookie': j.getCookieString(baseUrl)
+                    }),
+                    form: createRequestBody({
+                        station_id_from: stationIdFrom,
+                        station_id_till: stationIdTill,
+                        train: train,
+                        date_dep: dateDep / 1000
+                    })
                 })
+            }).then(function (results) {
+                return _.get(results, 'data.stations');
             }).catch(console.error);
     }
 };
