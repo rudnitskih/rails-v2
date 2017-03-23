@@ -8,7 +8,8 @@ let models = {
 mongoose.Promise = global.Promise;
 
 module.exports = {
-    start: function (cb) {
+    start: function (debugMode, cb) {
+        mongoose.set('debug', debugMode);
         console.log('Start connect to ' + config.dbURI + '...');
 
         return new Promise((resolve) => {

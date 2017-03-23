@@ -3,7 +3,10 @@ let deepPopulate = require('mongoose-deep-populate')(mongoose);
 
 let StationSchema = new mongoose.Schema({
     bookingUz: {
-        id: Number,
+        id: {
+            type: Number,
+            unique: true
+        },
         titles: [{
             title: String,
             locale: String
